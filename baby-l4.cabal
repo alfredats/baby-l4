@@ -86,6 +86,7 @@ library
                   ToGF.FromSCasp.ToAnswer
                   ToGF.FromL4.ToQuestions
                   ToGF.FromL4.ToAnswers
+                  ToASP
                   ToSCASP
                   ToDA2
                   SimpleRules
@@ -132,6 +133,8 @@ library
                      -- required for graph processing (rule transformation)
                      , fgl >= 5.7
                      , graphviz
+                     -- for package Util
+                     , ghc
                      , tasty
                      , tasty-hunit
                      -- required for lsp
